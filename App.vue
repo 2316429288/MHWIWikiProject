@@ -6,7 +6,6 @@
 			// 绑定屏幕尺寸信息
 			uni.getSystemInfo({
 				success(e) {
-					console.log(e)
 					Vue.prototype.$windowWidth = e.windowWidth;
 					Vue.prototype.$windowHeight = e.windowHeight;
 					Vue.prototype.$screenWidth = e.screenWidth;
